@@ -304,6 +304,11 @@ img
 }
 
 /* vertical resize-handle */
+ .workspace-leaf-resize-handle {                                                           
+	width: 2px !important;                                                                
+	border-color: var(--text-title-h5);                                                   
+}         
+
 .workspace-split.mod-vertical > * > .workspace-leaf-resize-handle,
 .workspace-split.mod-left-split > .workspace-leaf-resize-handle,
 .workspace-split.mod-right-split > .workspace-leaf-resize-handle
